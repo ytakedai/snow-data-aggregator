@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/snow-tracker.iml" filepath="$PROJECT_DIR$/.idea/snow-tracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../snow-data-aggregator/.idea/snow-data-aggregator.iml" filepath="$PROJECT_DIR$/../snow-data-aggregator/.idea/snow-data-aggregator.iml" />
     </modules>
   </component>
 </project>

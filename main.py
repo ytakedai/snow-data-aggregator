@@ -32,6 +32,7 @@ def main():
 
     # Output the results
     display_results()
+    print('hello')
 
 
 def parse_arguments():
