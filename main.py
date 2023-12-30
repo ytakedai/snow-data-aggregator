@@ -1,5 +1,6 @@
 import argparse
-from ski_reports import resort, snowfall, lift_status
+from snow_data_aggregator.website import data_aggregator
+
 
 def initialize():
     """
@@ -9,12 +10,17 @@ def initialize():
     # Could include setting up logging, reading config files, etc.
     pass
 
-def display_results(snowfall_data, lift_status_data):
+
+def display_results():
     """
     Display the collected data in the desired format.
+
+    Parameters
+    Results from every source
     """
     # Code to display or output the results
     pass
+
 
 def main():
     """
@@ -22,16 +28,11 @@ def main():
     """
     initialize()
 
-    # Example of workflow
-    resort_data = resort.get_resort_data()
-    snowfall_data = snowfall.get_snowfall_data(resort_data)
-    lift_status_data = lift_status.get_lift_status(resort_data)
-
-    # Further processing and combining data
-    # ...
+    # Workflow here
 
     # Output the results
-    display_results(snowfall_data, lift_status_data)
+    display_results()
+
 
 def parse_arguments():
     """
@@ -41,6 +42,7 @@ def parse_arguments():
     # Define your command-line arguments here
     # parser.add_argument(...)
     return parser.parse_args()
+
 
 if __name__ == "__main__":
     args = parse_arguments()

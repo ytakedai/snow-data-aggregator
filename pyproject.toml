@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "snow-tracker"
+name = "snow-data-aggregator"
 version = "0.1.0"
 description = ""
 authors = ["ytakedai <yutotakedai@gmail.com>"]
